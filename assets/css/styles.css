@@ -43063,6 +43063,7 @@
 [data-header-position=scrollable] .app-header {
   position: absolute;
 }
+
 @media screen and (min-width: 992px) {
   [data-header-position=scrollable]:not([data-menu-position=scrollable]) .app-sidebar.sticky-pin {
     position: fixed !important;
@@ -98282,4 +98283,28 @@ background-color:#fff5d9;
 color:#fcaa0b;
 padding:25px;
 border-radius:100%;
+}
+
+.custom-button {
+  background-color: #0086ed; 
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.custom-button:active {
+  background-color: #3e8e41;
+  transform: scale(0.95);
 }
